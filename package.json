@@ -4,8 +4,8 @@
   "description": "automatizacion de casos de prueba en nozzmo.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test-chrome": "cypress run --spec cypress/e2e/ --browser chrome --env allure=true"
+    "test-chrome": "cypress run --spec cypress/e2e/ --browser chrome --env allure=true",
+    "test-edge": "cypress run --spec cypress/e2e/ --browser edge --env allure=true"
   },
   "author": "Pablo Arzu",
   "license": "ISC",
